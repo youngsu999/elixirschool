@@ -61,6 +61,34 @@ jekyll-archives:
     category: '/blog/categories/:name/'
     tag: '/blog/tags/:name/'
 
+algolia:
+  files_to_exclude:
+    - "ar/**/*"
+    - "bg/**/*"
+    - "bn/**/*"
+    - "de/**/*"
+    - "es/**/*"
+    - "fr/**/*"
+    - "gr/**/*"
+    - "id/**/*"
+    - "ja/**/*"
+    - "it/**/*"
+    - "ja/**/*"
+    - "ko/**/*"
+    - "ms/**/*"
+    - "no/**/*"
+    - "pl/**/*"
+    - "pt/**/*"
+    - "ru/**/*"
+    - "sk/**/*"
+    - "ta/**/*"
+    - "th/**/*"
+    - "tr/**/*"
+    - "uk/**/*"
+    - "vi/**/*"
+    - "zh-hans/**/*"
+    - "zh-hant/**/*"
+
 defaults:
   -
     scope:

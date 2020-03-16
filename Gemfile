@@ -14,3 +14,7 @@ gem 'sprockets', '~> 3.7'
 gem 'sprockets-es6'
 gem 'uglifier'
 gem 'jekyll-archives'
+
+group :jekyll_plugins do
+  gem 'jekyll-algolia', '~> 1.0'
+end
