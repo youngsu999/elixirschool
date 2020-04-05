@@ -4,6 +4,7 @@
 //= require stickyfill.min.js
 //= require util.js
 //= require toc.js
+//= require algolia-instant-search.js
 (function($) {
 
 	skel.breakpoints({

@@ -21,6 +21,16 @@
 					  <a href="/{% if page.lang %}{{ page.lang }}/{% endif %}" class="logo"><strong>Elixir School</strong>{% if page.layout == "blog" or page.layout == "post" or page.layout == "archive" %} {{ site.data['locales']['en']['sections']['blog']}}{% endif %}</a>
 					  {% include share-icons.html %}
 					</header>
+
+
+					<div id="search-box">
+						<!-- SearchBox widget will appear here -->
+					</div>
+
+					<div id="hits">
+						<!-- Hits widget will appear here -->
+					</div>
+
 					{{ content }}
 				</div>
 			</div>
